@@ -1,0 +1,82 @@
+p,
+.header,
+.main,
+.section,
+.aside,
+.footer {
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 5vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex: 1;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 50%;
+    width: 100%;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 50%;
+    width: 100%;
+}
+
+.flexp {
+    flex-basis: 45%;
+}
+
+.flexp2 {
+    flex-basis: 95%;
+}
+
+.aside {
+    display: flex;
+    align-items: stretch;
+    width: 40vh;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    flex: 0 0 content;
+}
+
+.footerp {
+    flex-basis: 20%;
+}
